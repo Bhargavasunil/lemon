@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <canvas id ="a" width= "400" height= "400" style="border:2px solid Blue;"></canvas>
+  <script>
+       var canvas = document.getElementById("a");
+       var ctx = canvas.getContext("2d");
+       ctx.fillStyle = "orange";
+       ctx.fillRect(10,10,100,100);
+       ctx.fillStyle = "blue";
+       ctx.fillRect(120,11,100,100);
+       ctx.fillStyle ="yellow";
+       ctx.fillRect(230,11,100,100);
+       ctx.fillStyle="red";
+       ctx.fillRect(11,120,100,200);
+       ctx.fillStyle="White";
+       ctx.fillRect(120,120,100,200);
+       ctx.fillStyle="Black";
+       ctx.fillRect(230,120,100,200);
+       ctx.strokeStyle = 'green';
+       ctx.strokeRect(10,330,320,60);
+  </script>
+ </body>
+</html>
